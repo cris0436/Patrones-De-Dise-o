@@ -26,19 +26,19 @@ const Creacionales = () => {
         <h2 className="mt-4">Lista de patrones creacionales</h2>
         <ul className="list-group">
           <li className="list-group-item">
-            <Link to="/singleton">🔹 Singleton</Link> - Garantiza una única instancia de una clase.
+            <Link to="/patrones/singleton">🔹 Singleton</Link> - Garantiza una única instancia de una clase.
           </li>
           <li className="list-group-item">
-            <Link to="/builder">🔹 Builder</Link> - Facilita la construcción de objetos complejos paso a paso.
+            <Link to="/patrones/builder">🔹 Builder</Link> - Facilita la construcción de objetos complejos paso a paso.
           </li>
           <li className="list-group-item">
-            <Link to="/factory-method">🔹 Factory Method</Link> - Permite la creación de objetos mediante un método en lugar de un constructor.
+            <Link to="/patrones/factory-method">🔹 Factory Method</Link> - Permite la creación de objetos mediante un método en lugar de un constructor.
           </li>
           <li className="list-group-item">
-            <Link to="/abstract-factory">🔹 Abstract Factory</Link> - Proporciona una interfaz para crear familias de objetos relacionados.
+            <Link to="/patrones/abstract-factory">🔹 Abstract Factory</Link> - Proporciona una interfaz para crear familias de objetos relacionados.
           </li>
           <li className="list-group-item">
-            <Link to="/prototype">🔹 Prototype</Link> - Permite copiar objetos sin depender de sus clases concretas.
+            <Link to="/patrones/prototype">🔹 Prototype</Link> - Permite copiar objetos sin depender de sus clases concretas.
           </li>
         </ul>
       </div>

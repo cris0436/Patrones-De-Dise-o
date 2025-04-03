@@ -24,25 +24,25 @@ const Estructurales = () => {
         <h2 className="mt-4">Lista de patrones estructurales</h2>
         <ul className="list-group">
           <li className="list-group-item">
-            <Link to="/adapter">🔹 Adapter</Link> - Convierte la interfaz de una clase en otra interfaz esperada por los clientes.
+            <Link to="/patrones/adapter">🔹 Adapter</Link> - Convierte la interfaz de una clase en otra interfaz esperada por los clientes.
           </li>
           <li className="list-group-item">
-            <Link to="/bridge">🔹 Bridge</Link> - Separa la abstracción de su implementación para que ambas puedan evolucionar independientemente.
+            <Link to="/patrones/bridge">🔹 Bridge</Link> - Separa la abstracción de su implementación para que ambas puedan evolucionar independientemente.
           </li>
           <li className="list-group-item">
-            <Link to="/composite">🔹 Composite</Link> - Permite tratar una estructura de objetos como una jerarquía uniforme.
+            <Link to="/patrones/composite">🔹 Composite</Link> - Permite tratar una estructura de objetos como una jerarquía uniforme.
           </li>
           <li className="list-group-item">
-            <Link to="/decorator">🔹 Decorator</Link> - Añade funcionalidades dinámicamente a objetos sin modificar su estructura original.
+            <Link to="/patrones/decorator">🔹 Decorator</Link> - Añade funcionalidades dinámicamente a objetos sin modificar su estructura original.
           </li>
           <li className="list-group-item">
-            <Link to="/facade">🔹 Facade</Link> - Proporciona una interfaz unificada para simplificar el uso de un sistema complejo.
+            <Link to="/patrones/facade">🔹 Facade</Link> - Proporciona una interfaz unificada para simplificar el uso de un sistema complejo.
           </li>
           <li className="list-group-item">
-            <Link to="/flyweight">🔹 Flyweight</Link> - Optimiza el uso de memoria compartiendo datos comunes entre objetos similares.
+            <Link to="/patrones/flyweight">🔹 Flyweight</Link> - Optimiza el uso de memoria compartiendo datos comunes entre objetos similares.
           </li>
           <li className="list-group-item">
-            <Link to="/proxy">🔹 Proxy</Link> - Controla el acceso a otro objeto, permitiendo funcionalidades adicionales como caching y control de acceso.
+            <Link to="/patrones/proxy">🔹 Proxy</Link> - Controla el acceso a otro objeto, permitiendo funcionalidades adicionales como caching y control de acceso.
           </li>
         </ul>
       </div>
