@@ -1,5 +1,5 @@
 import React from 'react';
-import chainImage from '../../assets/ChainOfResponsibility.png';
+import chainImage from '../../assets/chainOfResponsibility.png';
 import chainImageLogo from '../../assets/chain-of-responsibility-logo.png';
 
 const ChainOfResponsibility = () => {
