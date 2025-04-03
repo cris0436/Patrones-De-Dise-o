@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 const BarraNavegacion = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">

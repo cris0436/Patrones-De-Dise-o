@@ -3,7 +3,7 @@ import { Facade, Proxy, Decorator, Adapter, Bridge, Composite, Flyweight ,Estruc
 import { Singleton, Builder, FactoryMethod, AbstractFactory, Prototype ,Creacionales} from "../componentes/patronesCreacionales";
  import {Comportamentales,ChainOfResponsibility,Command,Interpreter,Iterator,Mediator,Memento,Observer,State,Strategy,TemplateMethod,Visitor} from "../componentes/patronesComportamentales"
 
-import BarraNavegacion from "../componentes/barraNavegacion";
+import BarraNavegacion from "../componentes/BarraNavegacion";
 import Footer from "../componentes/Footer";
 import Home from "./Home";
 import Patterns from "./Patrones";
