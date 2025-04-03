@@ -6,8 +6,7 @@ function App() {
   
   return (
     <>
-  <div className="d-flex flex-column min-vh-100">
-  <div className="main-content">
+
     <Router>
     <Routes>
         <Route path="/" element={<Layout com="Home" />} />
@@ -46,8 +45,6 @@ function App() {
       </Routes>
 
     </Router>
-    </div>
-    </div>
     </>
   )
 }

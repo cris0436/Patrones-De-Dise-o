@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Patterns = () => {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 mb-5">
       <h1 className="text-center">Patrones de Diseño</h1>
       <p className="lead text-center">
         Explora los diferentes tipos de patrones de diseño en el desarrollo de software.
@@ -24,7 +24,20 @@ const Patterns = () => {
             </div>
           </div>
         </div>
-
+{/* Patrones Comportamentales */}
+<div className="col-md-4">
+          <div className="card text-center">
+            <div className="card-body">
+              <h3 className="card-title">Patrones Comportamentales</h3>
+              <p className="card-text">
+                Se centran en la comunicación y la interacción entre los objetos.
+              </p>
+              <Link to="/patrones/comportamentales" className="btn btn-primary">
+                Ver Patrones Comportamentales
+              </Link>
+            </div>
+          </div>
+        </div>
         {/* Patrones Estructurales */}
         <div className="col-md-4">
           <div className="card text-center">
@@ -40,20 +53,7 @@ const Patterns = () => {
           </div>
         </div>
 
-        {/* Patrones Comportamentales */}
-        <div className="col-md-4">
-          <div className="card text-center">
-            <div className="card-body">
-              <h3 className="card-title">Patrones Comportamentales</h3>
-              <p className="card-text">
-                Se centran en la comunicación y la interacción entre los objetos.
-              </p>
-              <Link to="/patrones/comportamentales" className="btn btn-primary">
-                Ver Patrones Comportamentales
-              </Link>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   );

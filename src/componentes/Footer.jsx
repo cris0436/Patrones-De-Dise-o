@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     
     
-    <footer className="bg-dark text-light py-4">
-      <div className="footer container">
-        <div className="row">
+    <footer className="bg-dark text-light py-4 mt-5">
+      <div className=" container">
+        <div className="row footer">
           {/* Sección de enlaces */}
           <div className="col-md-6">
             <h5>Enlaces rápidos</h5>
@@ -27,7 +27,7 @@ const Footer = () => {
           <div className="col-md-6 text-md-end">
             <h5>Información</h5>
             <p className="mb-0">Proyecto sobre Patrones de Diseño</p>
-            <p>&copy; {new Date().getFullYear()} - Todos los derechos reservados</p>
+            <p>Autor Cristhian Alejandro Cabezas</p>
           </div>
         </div>
       </div>
