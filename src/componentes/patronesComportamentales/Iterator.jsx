@@ -1,6 +1,6 @@
 import React from 'react';
 import iteratorImage from '../../assets/iterator.png';
-import iteratorImageLogo from '../../assets/Iterator-logo.png';
+import iteratorImageLogo from '../../assets/iterator-logo.png';
 
 const Iterator = () => {
   return (

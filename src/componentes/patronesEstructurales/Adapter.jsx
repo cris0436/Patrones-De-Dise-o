@@ -1,6 +1,6 @@
 import React from 'react';
 
-import adapterImage from '../../assets/adapter.png';
+import adapterImage from '../../assets/adapter.jpg';
 import adapterImageLogo from '../../assets/adapter-logo.png';
 
 const Adapter = () => {
