@@ -6,7 +6,15 @@ body {
     height: 300px;
     align-items: center;
   }
-
+  .col-md-6 img {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .col-md-6 img:hover {
+    transform: scale(1.5); /* Expande la imagen al pasar el mouse */
+  }
+  
 .row ,h1,h2{
     margin: 5px;
     border-width: 3px;
